@@ -1,13 +1,18 @@
 import pinklogo from '../assets/pinklogo.png';
 
-function ComponentUI(){
+function ComponentUI() {
     return (
-        <div>
-            <img src={pinklogo} width="150" height="150" />
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img 
+                src={pinklogo} 
+                alt="Pink Logo" 
+                width="100" 
+                height="100" 
+                style={{ marginRight: '10px' }}
+            />
             <h1>Welcome to the product page!</h1>
         </div>
-    );
+    ); 
 }
-  
+
 export default ComponentUI;
-  

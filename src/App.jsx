@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import ComponentUI from './Component_exercise/ComponentUI';
+import OrderForm from './Component_exercise/Orderform';
+import OrderInfo from './Component_exercise/OrderInfo';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   <div>
-    
-   </div>
-  )
+    <div>
+      <ComponentUI/>
+    </div>
+  );
 }
 
-export default App
+export default App;

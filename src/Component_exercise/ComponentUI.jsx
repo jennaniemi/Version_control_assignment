@@ -1,3 +1,4 @@
+import React from 'react';
 import pinklogo from '../assets/pinklogo.png';
 
 function ComponentUI() {
@@ -10,7 +11,7 @@ function ComponentUI() {
                 height="100" 
                 style={{ marginRight: '10px' }}
             />
-            <h1>Welcome to the product page!</h1>
+            <h1>Welcome to the product page!</h1> 
         </div>
     ); 
 }
